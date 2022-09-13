@@ -5,11 +5,12 @@ import { Form } from './styles'
 import Modal from '../Modal'
 import Input from '../Input'
 import { FoodProps } from '../Food'
+import { EditingFoodProps } from '../../pages/Dashboard'
 
 type ModalEditFoodProps = {
   isOpen: boolean
   setIsOpen: () => void
-  editingFood: FoodProps
+  editingFood: EditingFoodProps
   handleUpdateFood: (data: FoodProps) => void
 }
 
